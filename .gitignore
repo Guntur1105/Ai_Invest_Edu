@@ -1,0 +1,103 @@
+# ==========================================
+# MISCELLANEOUS
+# ==========================================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ==========================================
+# SECRETS / ENVIRONMENT (PENTING!)
+# ==========================================
+# File environment & API key
+.env
+.env.*
+!.env.example
+
+# File kunci / service account
+*service-account*.json
+*credentials*.json
+*secret*.json
+
+# ==========================================
+# FIREBASE
+# ==========================================
+# Konfigurasi Firebase (disarankan tidak di-commit)
+google-services.json
+GoogleService-Info.plist
+lib/firebase_options.dart
+.firebase/
+
+# ==========================================
+# IDE / EDITOR
+# ==========================================
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code — aktifkan jika tidak ingin share konfigurasi lokal
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ==========================================
+# FLUTTER / DART / PUB
+# ==========================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# ==========================================
+# SYMBOLICATION & OBFUSCATION
+# ==========================================
+app.*.symbols
+app.*.map.json
+
+# ==========================================
+# ANDROID BUILD ARTIFACTS
+# ==========================================
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ==========================================
+# IOS / MACOS
+# ==========================================
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/macos/Pods/
+
+# ==========================================
+# NODE / WEB (jika ada bagian web/backend JS)
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+coverage/
+
+# ==========================================
+# OS FILES
+# ==========================================
+Thumbs.db
+*.bak
+*.tmp

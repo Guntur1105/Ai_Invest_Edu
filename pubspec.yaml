@@ -1,0 +1,62 @@
+name: ai_invest_edu
+description: AI InvestEdu
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.5
+
+  # HTTP Client
+  dio: ^5.9.0
+
+  # Local Storage
+  shared_preferences: ^2.5.3
+
+  # Fonts
+  google_fonts: ^6.3.1
+
+  # Date Format
+  intl: ^0.20.2
+
+  # Markdown
+  flutter_markdown: ^0.7.7+1
+
+  # SVG
+  flutter_svg: ^2.2.0
+
+  # Loading Animation
+  flutter_spinkit: ^5.2.2
+
+  # Environment Variable
+  flutter_dotenv: ^5.2.1
+
+  # Animation
+  animate_do: ^4.2.0
+
+  # ⬇️ TAMBAHAN: Untuk Upload Gambar di Chat AI
+  image_picker: ^1.1.2
+  firebase_core: ^5.1.0
+  firebase_auth: ^7.0.1
+  google_sign_in: ^7.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
