@@ -8,13 +8,6 @@
   An educational Flutter application designed to help users understand investment concepts through an interactive and technology-driven learning experience.
 </p>
 
-<p align="center">
-  ![Flutter](https://img.shields.io/badge/Flutter-Framework-02569B?logo=flutter&logoColor=white)
-  ![Dart](https://img.shields.io/badge/Dart-Language-0175C2?logo=dart&logoColor=white)
-  ![Platform](https://img.shields.io/badge/Platform-Android-green?logo=android)
-  ![Status](https://img.shields.io/badge/Status-In%20Development-orange)
-</p>
-
 ---
 
 ## 📱 About The Project
